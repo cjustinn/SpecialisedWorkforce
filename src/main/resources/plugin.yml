@@ -1,0 +1,17 @@
+name: SpecialisedWorkforce
+version: '${project.version}'
+main: io.github.cjustinn.specialisedworkforce.SpecialisedWorkforce
+api-version: 1.19
+prefix: SpecialisedWorkforce
+load: STARTUP
+authors: [ ItsJstn ]
+description: Implements player jobs.
+commands:
+  workforce:
+    description: The main command for all SpecialisedWorkforce operations.
+    usage: /workforce [join/quit]
+    permission: specialisedworkforce.workforce
+  workforceadmin:
+    description: The main admin control command for SpecialisedWorkforce operations.
+    usage: /workforce [add/set/view]
+    permission: specialisedworkforce.admin

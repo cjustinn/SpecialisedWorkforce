@@ -11,7 +11,15 @@ public class BrewLog {
         this.playerUuid = _uuid;
     }
 
-    public boolean brewerIsAlchemist() { return this.isAlchemist; }
-    public int getBrewerLevel() { return this.playerLevel; }
-    public String getBrewerUuid() { return this.playerUuid; }
+    public boolean brewerIsAlchemist() {
+        return this.isAlchemist;
+    }
+
+    public int getBrewerLevel() {
+        return this.playerLevel;
+    }
+
+    public String getBrewerUuid() {
+        return this.playerUuid;
+    }
 }

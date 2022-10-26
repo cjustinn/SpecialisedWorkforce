@@ -6,7 +6,7 @@
 
     <groupId>io.github.cjustinn</groupId>
     <artifactId>SpecialisedWorkforce</artifactId>
-    <version>ALPHA-0.6.2</version>
+    <version>BETA-0.9.0</version>
     <packaging>jar</packaging>
 
     <name>SpecialisedWorkforce</name>

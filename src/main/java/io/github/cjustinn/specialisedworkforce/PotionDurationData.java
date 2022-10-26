@@ -11,7 +11,15 @@ public class PotionDurationData {
         this.extended = _e;
     }
 
-    public int GetBaseDuration() { return this.base; }
-    public int GetUpgradedDuration() { return this.upgraded; }
-    public int GetExtendedDuration() { return this.extended; }
+    public int GetBaseDuration() {
+        return this.base;
+    }
+
+    public int GetUpgradedDuration() {
+        return this.upgraded;
+    }
+
+    public int GetExtendedDuration() {
+        return this.extended;
+    }
 }
